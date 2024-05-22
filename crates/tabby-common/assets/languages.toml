@@ -308,5 +308,24 @@ languages = ["tex"]
 exts = ["tex"]
 
 [[config]]
+languages = ["vala"]
+exts = ["vala"]
+line_comment = "//"
+top_level_keywords = [
+    "class",
+    "struct",
+    "enum",
+    "interface",
+    "abstract",
+    "static",
+    "extern",
+    "namespace",
+    "using",
+    "var",
+    "dynamic",
+    "async",
+]
+
+[[config]]
 languages = ["vb"]
 exts = ["vb"]
